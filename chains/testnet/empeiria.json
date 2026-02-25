@@ -1,7 +1,7 @@
 {
   "chain_name": "empeiria",
   "chain_id": "empe-testnet-2",
-  "registry_name": "empeiria",
+  "registry_name": "empeiria-Tesnet",
   "network_type": "testnet",
   "rpc": [
     {
@@ -19,14 +19,14 @@
   "coin_type": "118",
   "min_tx_fee": "1000",
   "addr_prefix": "empe",
-  "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/empeiria/images/empe.png",
+  "logo": "https://raw.githubusercontent.com/alfadzc/Alfadzc-Explorer/main/public/assets/empeiria.png",
   "assets": [
     {
       "base": "uempe",
       "symbol": "EMPE",
       "exponent": "6",
       "coingecko_id": "",
-      "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/empeiria/images/empe.png"
+      "logo": "https://raw.githubusercontent.com/alfadzc/Alfadzc-Explorer/main/public/assets/empeiria.png"
     }
   ],
   "features": [

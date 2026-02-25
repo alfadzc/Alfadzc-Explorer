@@ -6,36 +6,44 @@
   "network_type": "mainnet",
   "rpc": [
     {
+      "address": "https://lava.tendermintrpc.lava.build:443",
+      "provider": "Lava"
+    },
+    {
       "address": "https://lava-rpc.polkachu.com",
       "provider": "Polkachu"
     },
     {
-      "address": "https://lava-rpc.lavenderfive.com",
-      "provider": "Lavender.Five"
+      "address": "https://lava-mainnet-rpc.itrocket.net",
+      "provider": "ITRocket"
     }
   ],
   "api": [
+    {
+      "address": "https://lava.lava.build",
+      "provider": "Lava"
+    },
     {
       "address": "https://lava-api.polkachu.com",
       "provider": "Polkachu"
     },
     {
-      "address": "https://lava-api.lavenderfive.com",
-      "provider": "Lavender.Five"
+      "address": "https://lava-mainnet-api.itrocket.net",
+      "provider": "ITRocket"
     }
   ],
   "sdk_version": "0.47.0",
   "coin_type": "118",
   "min_tx_fee": "1000",
-  "addr_prefix": "lava@",
-  "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lava/images/lava.png",
+  "addr_prefix": "lava",
+  "logo": "https://raw.githubusercontent.com/alfadzc/Alfadzc-Explorer/main/public/assets/lava.png",
   "assets": [
     {
       "base": "ulava",
       "symbol": "LAVA",
-      "exponent": "6",
+      "exponent": 6,
       "coingecko_id": "lava-network",
-      "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lava/images/lava.png"
+      "logo": "https://raw.githubusercontent.com/alfadzc/Alfadzc-Explorer/main/public/assets/lava.png"
     }
   ],
   "features": [

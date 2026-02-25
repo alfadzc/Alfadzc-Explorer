@@ -20,14 +20,14 @@
   "coin_type": "60",
   "min_tx_fee": "1000",
   "addr_prefix": "shido",
-  "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.png",
+  "logo": "https://raw.githubusercontent.com/alfadzc/Alfadzc-Explorer/main/public/assets/shido.png",
   "assets": [
     {
-      "base": "ushido",
+      "base": "shido",
       "symbol": "SHIDO",
-      "exponent": "6",
+      "exponent": "18",
       "coingecko_id": "shido-2",
-      "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.png"
+      "logo": "https://raw.githubusercontent.com/alfadzc/Alfadzc-Explorer/main/public/assets/shido.png"
     }
   ],
   "features": [

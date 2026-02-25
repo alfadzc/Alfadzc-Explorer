@@ -85,7 +85,6 @@ const show_ad = computed(() => {
 
 <template>
   <div class="bg-gray-100 dark:bg-[#171d30]">
-    <!-- sidebar -->
     <div
       class="w-64 fixed z-50 left-0 top-0 bottom-0 overflow-auto bg-base-100 border-r border-gray-100 dark:border-gray-700"
       :class="{ block: sidebarShow, 'hidden xl:!block': !sidebarShow }"
@@ -96,7 +95,11 @@ const show_ad = computed(() => {
             <div class="flex flex-col items-center">
               <img class="w-10 h-10 rounded-full" src="../../assets/logo.png" />
             </div>
-            <span class="ml-3 text-2xl font-semibold" style="color: #8B2FC9;">Ping.pub</span>
+            <span 
+              class="ml-3 text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#a855f7] to-[#3b82f6] py-1"
+            >
+              Ping.pub
+            </span>
           </div>
         </RouterLink>
         <div
@@ -278,7 +281,6 @@ const show_ad = computed(() => {
       </div>
     </div>
     <div class="xl:!ml-64 px-3 pt-4">
-      <!-- header -->
       <div
         class="flex items-center py-3 bg-base-100 mb-4 rounded px-4 sticky top-0 z-10"
       >
@@ -293,14 +295,12 @@ const show_ad = computed(() => {
 
         <div class="flex-1 w-0"></div>
 
-        <!-- <NavSearchBar />-->
         <NavBarI18n class="hidden md:!inline-block" />
         <NavbarThemeSwitcher class="!inline-block" />
         <NavbarSearch class="!inline-block" />
         <NavBarWallet />
       </div>
 
-      <!-- Pages -->
       <div style="min-height: calc(100vh - 180px)">
         <div v-if="behind" class="alert alert-error mb-4">
           <div class="flex gap-2">
@@ -328,7 +328,12 @@ const show_ad = computed(() => {
           <Transition mode="out-in">
             <div>
               <AdBanner v-if="show_ad" />
-              <Component :is="Component" />
+              <Component 
+                :is="Component" 
+                :class="{
+                  '[&_h1]:!bg-clip-text [&_h1]:!text-transparent [&_h1]:!bg-gradient-to-r [&_h1]:!from-[#a855f7] [&_h1]:!to-[#3b82f6] [&_h1]:!font-bold [&_h1]:pb-2 [&_h1]:leading-relaxed [&_.text-4xl]:!bg-clip-text [&_.text-4xl]:!text-transparent [&_.text-4xl]:!bg-gradient-to-r [&_.text-4xl]:!from-[#a855f7] [&_.text-4xl]:!to-[#3b82f6] [&_.text-4xl]:pb-2 [&_.text-4xl]:leading-relaxed [&_svg]:!text-[#a855f7] [&_path]:!fill-[#a855f7]': $route.path === '/'
+                }" 
+              />
             </div>
           </Transition>
         </RouterView>

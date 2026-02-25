@@ -1,7 +1,7 @@
 {
   "chain_name": "bitbadges",
   "chain_id": "bitbadges-1",
-  "registry_name": "bitbadges",
+  "registry_name": "Bitbadges",
   "network_type": "mainnet",
   "rpc": [
     {
@@ -19,14 +19,14 @@
   "coin_type": "118",
   "min_tx_fee": "1000",
   "addr_prefix": "cosmos",
-  "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/bitbadgeslogo.png",
+  "logo": "https://raw.githubusercontent.com/alfadzc/Alfadzc-Explorer/main/public/assets/bitbadges.png",
   "assets": [
     {
       "base": "ubadge",
       "symbol": "BADGE",
-      "exponent": "6",
+      "exponent": "9",
       "coingecko_id": "",
-      "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/bitbadgeslogo.png"
+      "logo": "https://raw.githubusercontent.com/alfadzc/Alfadzc-Explorer/main/public/assets/bitbadges.png"
     }
   ],
   "features": [

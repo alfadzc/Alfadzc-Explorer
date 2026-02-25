@@ -1,32 +1,32 @@
 {
   "chain_name": "cnho",
-  "chain_id": "cnho-1",
-  "registry_name": "cnhostables",
+  "chain_id": "cnho_stables-1",
+  "registry_name": "CNHO Stables",
   "network_type": "mainnet",
   "rpc": [
     {
       "address": "https://rpc.cnho.io",
-      "provider": "Cnho"
+      "provider": "Cnho.io"
     }
   ],
   "api": [
     {
-      "address": "https://lcd.cnho.io",
-      "provider": "Cnho"
+      "address": "https://api.cnho.io",
+      "provider": "Cnho.io"
     }
   ],
   "sdk_version": "0.47.0",
   "coin_type": "118",
   "min_tx_fee": "1000",
   "addr_prefix": "cnho",
-  "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cnhostables/images/chain.png",
+  "logo": "https://raw.githubusercontent.com/alfadzc/Alfadzc-Explorer/main/public/assets/cnho.png",
   "assets": [
     {
       "base": "ucnho",
       "symbol": "CNHO",
       "exponent": "6",
       "coingecko_id": "",
-      "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cnhostables/images/chain.png"
+      "logo": "https://raw.githubusercontent.com/alfadzc/Alfadzc-Explorer/main/public/assets/cnho.png"
     }
   ],
   "features": [
