@@ -1,0 +1,47 @@
+{
+  "chain_name": "epix",
+  "chain_id": "epix_1916-1",
+  "registry_name": "Epix",
+  "network_type": "mainnet",
+  "rpc": [
+    {
+      "address": "https://rpc.epixchain.com",
+      "provider": "Epix"
+    }
+  ],
+  "api": [
+    {
+      "address": "https://api.epix.zone",
+      "provider": "Epix"
+    }, 
+    {
+      "address": "https://epix.blocksync.me/api",
+      "provider": "blocksync.me"
+    }
+  ],
+  "sdk_version": "0.47.0",
+  "coin_type": "60",
+  "min_tx_fee": "20000000000",
+  "addr_prefix": "epix",
+  "logo": "https://raw.githubusercontent.com/alfadzc/explorer.alfadzc.xyz/main/public/assets/epix.png",
+  "assets": [
+    {
+      "base": "aepix",
+      "symbol": "EPIX",
+      "exponent": "18",
+      "coingecko_id": "",
+      "logo": "https://raw.githubusercontent.com/alfadzc/explorer.alfadzc.xyz/main/public/assets/epix.png"
+    }
+  ],
+  "features": [
+    "dashboard",
+    "governance",
+    "staking",
+    "blocks",
+    "tx",
+    "uptime",
+    "supply",
+    "parameters",
+    "consensus"
+  ]
+}
