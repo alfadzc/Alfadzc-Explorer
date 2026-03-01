@@ -6,3 +6,5 @@ dist
 
 .env*
 !.env.example
+public/assets/*.png
+public/assets/*.png
