@@ -5,12 +5,10 @@
   "network_type": "mainnet",
   "rpc": [
     {"address": "https://mainnet-rpc.paxinet.io", "provider": "Paxi Foundation"},    
-    {"address": "https://shido-rpc.polkachu.com", "provider": "Polkachu"},
     {"address": "https://rpc-paxi.vinjan-inc.com", "provider": "Vinjan.Inc"}  
   ],
   "api": [
     {"address": "https://mainnet-lcd.paxinet.io", "provider": "Paxi Foundation"},    
-    {"address": "https://shido-api.polkachu.com", "provider": "Polkachu"},
     {"address": "https://api-paxi.vinjan-inc.com", "provider": "Vinjan.Inc"}
   ],
   "sdk_version": "0.5.3",
