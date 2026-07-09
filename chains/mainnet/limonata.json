@@ -1,0 +1,41 @@
+{
+  "chain_name": "limonata-testnet",
+  "chain_id": "limonata_10777-1",
+  "registry_name": "Limonata-Testnet",
+  "network_type": "testnet",
+  "rpc": [
+    {"address": "https://rpc.limonata.xyz", "provider": "Limonata"}
+  ],
+  "api": [
+    {"address": "https://rest.limonata.xyz", "provider": "Limonata"}
+  ],
+  "sdk_version": "0.47.0",
+  "coin_type": "60",
+  "min_tx_fee": "1000",
+  "addr_prefix": "limonata",
+  "logo": "https://raw.githubusercontent.com/alfadzc/Alfadzc-Explorer/main/public/assets/limonata.png",
+  "assets": [
+    {
+      "base": "aLIMO",
+      "symbol": "LIMO",
+      "exponent": "18",
+      "coingecko_id": "",
+      "logo": "https://raw.githubusercontent.com/alfadzc/Alfadzc-Explorer/main/public/assets/limonata.png"
+    }
+  ],
+  "features": [
+    "dashboard",
+    "governance",
+    "staking",
+    "blocks",
+    "tx",
+    "uptime",
+    "ibc",
+    "supply",
+    "parameters",
+    "consensus",
+    "cosmwasm",
+    "state-sync",
+    "Widgets"
+  ]
+}
