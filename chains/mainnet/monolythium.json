@@ -17,14 +17,14 @@
   "coin_type": "60",
   "min_tx_fee": "1000",
   "addr_prefix": "monolythium",
-  "logo": "https://raw.githubusercontent.com/alfadzc/Alfadzc-Explorer/main/public/assets/monolythium.png",
+  "logo": "https://cdn.jsdelivr.net/gh/alfadzc/Alfadzc-Explorer@main/public/assets/monolythium.png",
   "assets": [
     {
       "base": "alyth",
       "symbol": "LYTH",
       "exponent": "18",
       "coingecko_id": "",
-      "logo": "https://raw.githubusercontent.com/alfadzc/Alfadzc-Explorer/main/public/assets/monolythium.png"
+      "logo": "https://cdn.jsdelivr.net/gh/alfadzc/Alfadzc-Explorer@main/public/assets/monolythium.png"
     }
   ],
   "features": [

@@ -13,14 +13,14 @@
   "coin_type": "60",
   "min_tx_fee": "1000",
   "addr_prefix": "limonata",
-  "logo": "https://raw.githubusercontent.com/alfadzc/Alfadzc-Explorer/main/public/assets/limonata.png",
+  "logo": "https://cdn.jsdelivr.net/gh/alfadzc/Alfadzc-Explorer@main/public/assets/limonata.png",
   "assets": [
     {
       "base": "aLIMO",
       "symbol": "LIMO",
       "exponent": "18",
       "coingecko_id": "",
-      "logo": "https://raw.githubusercontent.com/alfadzc/Alfadzc-Explorer/main/public/assets/limonata.png"
+      "logo": "https://cdn.jsdelivr.net/gh/alfadzc/Alfadzc-Explorer@main/public/assets/limonata.png"
     }
   ],
   "features": [

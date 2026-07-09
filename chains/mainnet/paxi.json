@@ -15,14 +15,14 @@
   "coin_type": "118",
   "min_tx_fee": "1000",
   "addr_prefix": "paxi",
-  "logo": "https://raw.githubusercontent.com/alfadzc/Alfadzc-Explorer/main/public/assets/paxi.png",
+  "logo": "https://cdn.jsdelivr.net/gh/alfadzc/Alfadzc-Explorer@main/public/assets/paxi.png",
   "assets": [
     {
       "base": "upaxi",
       "symbol": "PAXI",
       "exponent": 6,
       "coingecko_id": "",
-      "logo": "https://raw.githubusercontent.com/alfadzc/Alfadzc-Explorer/main/public/assets/paxi.png"
+      "logo": "https://cdn.jsdelivr.net/gh/alfadzc/Alfadzc-Explorer@main/public/assets/paxi.png"
     }
   ],
   "features": [

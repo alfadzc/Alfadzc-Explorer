@@ -20,14 +20,14 @@
   "coin_type": "118",
   "min_tx_fee": "1000",
   "addr_prefix": "lava",
-  "logo": "https://raw.githubusercontent.com/alfadzc/Alfadzc-Explorer/main/public/assets/lava.png",
+  "logo": "https://cdn.jsdelivr.net/gh/alfadzc/Alfadzc-Explorer@main/public/assets/lava.png",
   "assets": [
     {
       "base": "ulava",
       "symbol": "LAVA",
       "exponent": 6,
       "coingecko_id": "lava-network",
-      "logo": "https://raw.githubusercontent.com/alfadzc/Alfadzc-Explorer/main/public/assets/lava.png"
+      "logo": "https://cdn.jsdelivr.net/gh/alfadzc/Alfadzc-Explorer@main/public/assets/lava.png"
     }
   ],
   "features": [

@@ -17,14 +17,14 @@
   "coin_type": "118",
   "min_tx_fee": "1000",
   "addr_prefix": "safro",
-  "logo": "https://raw.githubusercontent.com/alfadzc/Alfadzc-Explorer/main/public/assets/safrochain.png",
+  "logo": "https://cdn.jsdelivr.net/gh/alfadzc/Alfadzc-Explorer@main/public/assets/safrochain.png",
   "assets": [
     {
       "base": "usaf",
       "symbol": "SAF",
       "exponent": 6,
       "coingecko_id": "",
-      "logo": "https://raw.githubusercontent.com/alfadzc/Alfadzc-Explorer/main/public/assets/safrochain.png"
+      "logo": "https://cdn.jsdelivr.net/gh/alfadzc/Alfadzc-Explorer@main/public/assets/safrochain.png"
     }
   ],
   "features": [

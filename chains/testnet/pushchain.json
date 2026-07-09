@@ -17,14 +17,14 @@
   "coin_type": "60",
   "min_tx_fee": "1000",
   "addr_prefix": "push",
-  "logo": "https://raw.githubusercontent.com/alfadzc/Alfadzc-Explorer/main/public/assets/pushchain.png",
+  "logo": "https://cdn.jsdelivr.net/gh/alfadzc/Alfadzc-Explorer@main/public/assets/pushchain.png",
   "assets": [
     {
       "base": "upc",
       "symbol": "PC",
       "exponent": "18",
       "coingecko_id": "",
-      "logo": "https://raw.githubusercontent.com/alfadzc/Alfadzc-Explorer/main/public/assets/pushchain.png"
+      "logo": "https://cdn.jsdelivr.net/gh/alfadzc/Alfadzc-Explorer@main/public/assets/pushchain.png"
     }
   ],
   "features": [
