@@ -4,23 +4,29 @@
   "registry_name": "Limonata-Testnet",
   "network_type": "testnet",
   "rpc": [
-    {"address": "https://rpc.limonata.xyz", "provider": "Limonata"}
+    {"address": "https://rpc.limonata.xyz", "provider": "Limonata"},
+    {"address": "https://rpc-testnet.limonata.cumulo.me", "provider": "Cumulo.pro"},  
+    {"address": "https://t-limonata.rpc.utsa.tech", "provider": "UTSA"},  
+    {"address": "https://rpc-t.limonata.vinjan-inc.com", "provider": "Vinjan.Inc"}      
   ],
   "api": [
-    {"address": "https://rest.limonata.xyz", "provider": "Limonata"}
+    {"address": "https://rest.limonata.xyz", "provider": "Limonata"},
+    {"address": "https://api-testnet.limonata.cumulo.me", "provider": "Cumulo.pro"},
+    {"address": "https://t-limonata.api.utsa.tech", "provider": "UTSA"},
+    {"address": "https://api-t.limonata.vinjan-inc.com", "provider": "Vinjan.Inc"}
   ],
   "sdk_version": "0.47.0",
   "coin_type": "60",
   "min_tx_fee": "1000",
   "addr_prefix": "limonata",
-  "logo": "https://raw.githubusercontent.com/alfadzc/Alfadzc-Explorer/main/public/assets/limonata.png",
+  "logo": "https://cdn.jsdelivr.net/gh/alfadzc/Alfadzc-Explorer@main/public/assets/limonata.png",
   "assets": [
     {
       "base": "aLIMO",
       "symbol": "LIMO",
       "exponent": "18",
       "coingecko_id": "",
-      "logo": "https://raw.githubusercontent.com/alfadzc/Alfadzc-Explorer/main/public/assets/limonata.png"
+      "logo": "https://cdn.jsdelivr.net/gh/alfadzc/Alfadzc-Explorer@main/public/assets/limonata.png"
     }
   ],
   "features": [

@@ -6,12 +6,14 @@
   "rpc": [
     {"address": "https://rpc1.safrochain.network", "provider": "Safrochain Foundation"},
     {"address": "https://rpc2.safrochain.network", "provider": "Safrochain Foundation"},
-    {"address": "https://rpc.safrochain.nodestake.org", "provider": "NodeStake"}
+    {"address": "https://safrochain-rpc.linknode.org", "provider": "LinkNode"},
+    {"address": "https://rpc.safrochain.nodestake.org", "provider": "NodeStake"}   
   ],
   "api": [
     {"address": "https://api1.safrochain.network", "provider": "Safrochain Foundation"},
     {"address": "https://api2.safrochain.network", "provider": "Safrochain Foundation"},
-    {"address": "https://api.safrochain.nodestake.org", "provider": "NodeStake"}
+    {"address": "https://safrochain-api.linknode.org", "provider": "LinkNode"},  
+    {"address": "https://api.safrochain.nodestake.org", "provider": "NodeStake"}    
   ],
   "sdk_version": "0.50.3",
   "coin_type": "118",
